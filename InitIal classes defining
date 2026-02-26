@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+class Theatre {
+private:
+    int rows, cols;
+    int seats[10][10]; 
+
+public:
+    Theatre(int r, int c) {
+        rows = r;
+        cols = c;
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                seats[i][j] = 0;
+            }
+        }
+    }
+
+    void display();
+    void booking();
+};
