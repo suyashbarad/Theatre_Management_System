@@ -1,0 +1,78 @@
+Enter your name: Suyash
+Enter date in format (DD/MM/YYYY): 01/03/2026
+
+Initial theatre: 
+--------screen--------
+   1  2  3  4  5  6
+1  _  _  _  _  _  _ 200rs 
+2  _  _  _  _  _  _ 200rs 
+3  _  _  _  _  _  _ 400rs 
+4  _  _  _  _  _  _ 400rs 
+5  _  _  _  _  _  _ 600rs 
+6  _  _  _  _  _  _ 600rs 
+
+Enter booking row: 1
+Enter booking column: 2
+Seat booked successfully.
+   1  2  3  4  5  6
+1  _  p  _  _  _  _ 200rs 
+2  _  _  _  _  _  _ 200rs 
+3  _  _  _  _  _  _ 400rs 
+4  _  _  _  _  _  _ 400rs 
+5  _  _  _  _  _  _ 600rs 
+6  _  _  _  _  _  _ 600rs 
+
+Total ticket price = 200rs
+Do you want to book more seats? 1.Yes, 2.No: 1
+Enter booking row: 4
+Enter booking column: 3
+Seat booked successfully.
+   1  2  3  4  5  6
+1  _  p  _  _  _  _ 200rs 
+2  _  _  _  _  _  _ 200rs 
+3  _  _  _  _  _  _ 400rs 
+4  _  _  p  _  _  _ 400rs 
+5  _  _  _  _  _  _ 600rs 
+6  _  _  _  _  _  _ 600rs 
+
+Total ticket price = 600rs
+Do you want to book more seats? 1.Yes, 2.No: 1
+Enter booking row: 4
+Enter booking column: 4
+Seat booked successfully.
+   1  2  3  4  5  6
+1  _  p  _  _  _  _ 200rs 
+2  _  _  _  _  _  _ 200rs 
+3  _  _  _  _  _  _ 400rs 
+4  _  _  p  p  _  _ 400rs 
+5  _  _  _  _  _  _ 600rs 
+6  _  _  _  _  _  _ 600rs 
+
+Total ticket price = 1000rs
+Do you want to book more seats? 1.Yes, 2.No: 1
+Enter booking row: 6
+Enter booking column: 5
+Seat booked successfully.
+   1  2  3  4  5  6
+1  _  p  _  _  _  _ 200rs 
+2  _  _  _  _  _  _ 200rs 
+3  _  _  _  _  _  _ 400rs 
+4  _  _  p  p  _  _ 400rs 
+5  _  _  _  _  _  _ 600rs 
+6  _  _  _  _  p  _ 600rs 
+
+Total ticket price = 1600rs
+Do you want to book more seats? 1.Yes, 2.No: 2
+Total ticket price = 1600rs
+
+================================
+            TICKET
+================================
+Name: Suyash
+Date: 01/03/2026
+Seats booked: 
+(1, 2) (4, 3) (4, 4) (6, 5) 
+Total price: 1600rs
+================================
+        Enjoy your show
+================================
