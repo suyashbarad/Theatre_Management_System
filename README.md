@@ -98,6 +98,13 @@ File handling for data persistence
 
 Graphical User Interface (GUI) version
 
+# How to Run
+1. Clone the repo
+2. Find file named main.cpp
+3. Open new terminal
+4. Run - `g++ main.cpp -o theatre`
+5. Run - `./theatre`
+   
 ## Author
 
 **Suyash Sachin Barad** <br>
