@@ -5,7 +5,6 @@ class Theatre {
 private:
     int rows, cols;
     int seats[10][10]; 
-
 public:
     Theatre(int r, int c) {
         rows = r;
