@@ -37,12 +37,17 @@ This project is designed as an academic mini-project for understanding OOP imple
 12. 2D Arrays
 
 ## Theatres Configuration
+`Working on...`
 |Theatre|	Rows|	Columns|
 |-------|-----|--------|
 |Theatre 1|	5	|6|
 |Theatre 2|	4	|4|
 |Theatre 3|	3	|8|
 
+`Done yet`
+|Theatre|	Rows|	Columns|
+|-------|-----|--------|
+|Theatre 1|	6	|6|
 ## How the System Works
 
 - The system displays the seating layout.
@@ -83,6 +88,7 @@ theatre.exe
 `3   _  _  _  _  _  _`<br>
 `4   _  _  _  _  _  _`<br>
 `5   _  _  _  _  _  _`<br>
+`6   _  _  _  _  _  _`<br>
 
 ## Future Enhancements
 
