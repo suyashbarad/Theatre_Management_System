@@ -53,6 +53,63 @@ public:
     }
 
     void booking(string name, string date, string M_name){
+        int r, c, choice;
+        int ticketPrice = 0;
+        int seats[36][2];
+        int seatcount = 0;
+        do{
+            cout << "Enter booking row: ";
+            cin >> r;
+            cout << "Enter booking column: ";
+            cin >> c;
+            r--;
+            c--;
+            if(r >= 0 && r < n1 && c >= 0 && c < n2){
+                if(arr[r][c] == 1){
+                    cout<<"Seat already booked\n";
+                }
+                else{
+                    cout << "Seat booked successfully.\n";
+                    arr[r][c] = 1;
+                    seats[seatcount][0] = r+1;
+                    seats[seatcount][1] = c+1;
+                    seatcount++;
+                    if(r == 0 || r == 1) ticketPrice += 200;
+                    else if(r == 2 || r == 3) ticketPrice += 400;
+                    else if(r == 4 || r == 5) ticketPrice += 600;
+                }
+
+                cout<<" ";
+                for(int i = 0; i < n2; i++){
+                    cout<<"  "<<i+1;
+                }
+                cout << endl;
+                for(int i = 0; i < n1; i++){
+                    cout<<i+1<<" ";
+                    for(int j = 0; j < n2; j++){
+                        if(arr[i][j] == 1){
+                            cout<<" p ";
+                        }
+                        else{
+                            cout<<" _ ";
+                        }
+                    }
+                    if(i == 0 || i == 1) cout<<"200rs ";
+                    else if(i == 2 || i == 3) cout<<"400rs ";
+                    else if(i == 4 || i == 5) cout<<"600rs ";
+                    cout << endl;
+                }
+                cout << endl;
+            } 
+            else{
+                cout << "Invalid seat selection.\n";
+            }
+            cout<<"Total ticket price = "<<ticketPrice<<"rs"<<endl;
+            cout<<"Do you want to book more seats? 1.Yes, 2.No: ";
+            cin>>choice;
+        }while(choice == 1);
+
+        cout<<"Total ticket price = "<<ticketPrice<<"rs"<<endl;
         ticketPrint(seats, ticketPrice, seatcount, name, date, M_name);
     }
 };
